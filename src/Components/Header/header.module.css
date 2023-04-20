@@ -1,3 +1,24 @@
+/* NAV HEADER */
+
 .logoHeader{
   margin: 3rem auto;
 }
+
+
+header nav {
+  text-align: center;
+}
+
+header nav a {
+  display: block;
+  margin: 0.5rem;
+  padding: 1rem;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+header nav a:hover i,
+header nav a:hover {
+  color: var(--secondary);
+}
+
